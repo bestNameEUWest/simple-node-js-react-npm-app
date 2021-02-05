@@ -2,8 +2,7 @@
 
 set -x
 npm run build
-npm start &
-sleep 1
+npm start 
 echo $! > .pidfile
 set +x
 
